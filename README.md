@@ -1,6 +1,8 @@
 # Component Lifecycle Methods - React Github User Card
 
-This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored lifecycle methods in class components. In your project you will demonstrate proficiency of these concepts by recreating the Github User Card project, but as a React application this time.
+This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete
+project. This module explored lifecycle methods in class components. In your project you will demonstrate proficiency of
+these concepts by recreating the Github User bCard project, but as a React application this time.
 
 
 ## Objectives
@@ -31,8 +33,10 @@ In this project you will build an application that allows for github user and fo
 ### Task 2: Project Requirements
 #### Build your DOM
 > *Creating the DOM for your application base on your template and data*
+
 * [ ] Take a look at the [included mockup](./card_mockup.png).
-* [ ] Use your browser to take a look at the data returned when using the following endpoints: https://api.github.com/users/<Your github name> and https://api.github.com/users/<Your github name>/followers
+* [ ] Use your browser to take a look at the data returned when using the following
+  endpoints: https://api.github.com/users/your_github_name and https://api.github.com/users/your_github_name/followers
 * [ ] Using these three pieces of information, build the DOM necessary to display all application information.
 * [ ] Make use of the User.js (for holding all user information), FollowerList.js (for map through a followers list) and Follower.js (for displaying an individual follower) components to efficiently distribute your code. ***All components should be class based for this assignment.***
 * [ ] Feel free to leave the search form within App.js.
@@ -56,12 +60,23 @@ In this project you will build an application that allows for github user and fo
 * [ ] Use componentDidUpdate to load follower information ***only when the user slice of state changes value. Make be careful to avoid infinite loops while building this portion.***
 
 #### Build search capabilities within your APP
+
 > *Now let's allow users to search for new github usernames*
+
 * [ ] Connect your form in App.js so that typing into a input updated your current user state.
 * [ ] When your form is submitted, make an api call on current user. Set the returned user data to state.
 * [ ] Ensure that followers is correctly updated.
 
 ### Task 3: Stretch goals
+
 - [ ] We are making several api calls of the same type in our code. How can we make this portion more dry?
-- [ ] Add in functionality so that when a follower is clicked, they will become the searched user. Have the UI update approprately.
+- [ ] Add in functionality so that when a follower is clicked, they will become the searched user. Have the UI update
+  approprately.
 - [ ] Push your styling! Have fun!
+
+## Submission Format
+
+- [ ] If this is your first time connecting a submission, authorize your github account within the codegrade assignment.
+- [ ] Connect your fork to Codegrade using the "Connect Git" button.
+- [ ] Find your newly created fork from the list and push your work to main.
+- [ ] Check this video for details: www.youtube.com/watch?v=fC2BO7dI6IQ
